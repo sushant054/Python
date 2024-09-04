@@ -1,3 +1,17 @@
+#Basic Data Inspection 
+# a. Load the dataset and display the first 10 rows.
+# b. How many rows and columns are present in the dataset?
+# c. What are the data types of each column?
+
+# Handling Missing Data 
+# a. Identify the columns with missing data and their respective counts.
+# b. For columns with more than 20% missing values, suggest a method to handle them and implement it.
+
+# Summary Statistics 
+# a. Generate summary statistics (mean, median, mode, etc.) for numerical columns (such as expertise, coffee_a_bitterness, and coffee_a_acidity).
+# b. How does the bitterness preference (coffee_a_bitterness) vary across different age groups? Provide a brief analysis.
+
+
 import pandas as pd
 file_path = "coffee_survey.csv"  # Ensure this path is correct for your local setup
 data = pd.read_csv(file_path)
